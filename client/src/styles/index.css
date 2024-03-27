@@ -1,0 +1,21 @@
+.container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+  }
+  
+  .table th {
+    font-weight: bold;
+  }
+  
