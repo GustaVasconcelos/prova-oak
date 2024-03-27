@@ -47,6 +47,7 @@ const ProductList = () => {
                 <thead className="table-dark">
                     <tr>
                         <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
                         <th scope="col">Valor</th>
                         <th scope="col">Status</th>
                         <th scope="col">Ações</th>
@@ -57,6 +58,7 @@ const ProductList = () => {
                         products.map((product) => (
                             <tr key={product._id}>
                                 <td>{product.name}</td>
+                                <td>{product.description}</td>
                                 <td>{product.price}</td>
                                 <td>{getStatusText(product.status)}</td>
                                 <td>
